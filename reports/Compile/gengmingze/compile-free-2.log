@@ -1,0 +1,266 @@
+Started by user [8mha:////4FZ+1P5UtYtqzzwhYpGQLkz0irtR0UFTMtDxvFAZdlo4AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/compile-free
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+No credentials specified
+using credential 54cdbd67-cafc-4c37-8891-c78f35effd1b
+Cloning the remote Git repository
+Cloning repository https://github.com/xzjch/try3.git
+ > /usr/bin/git init /var/lib/jenkins/workspace/compile-free # timeout=10
+Fetching upstream changes from https://github.com/xzjch/try3.git
+ > /usr/bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials github-xzj
+ > /usr/bin/git fetch --tags --progress https://github.com/xzjch/try3.git +refs/heads/*:refs/remotes/hook/* # timeout=10
+ > /usr/bin/git config remote.hook.url https://github.com/xzjch/try3.git # timeout=10
+ > /usr/bin/git config --add remote.hook.fetch +refs/heads/*:refs/remotes/hook/* # timeout=10
+ > /usr/bin/git config remote.hook.url https://github.com/xzjch/try3.git # timeout=10
+Fetching upstream changes from https://github.com/xzjch/try3.git
+using GIT_ASKPASS to set credentials github-xzj
+ > /usr/bin/git fetch --tags --progress https://github.com/xzjch/try3.git +refs/heads/*:refs/remotes/hook/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/xzjch/bianyi.git # timeout=10
+Fetching upstream changes from https://github.com/xzjch/bianyi.git
+ > /usr/bin/git fetch --tags --progress https://github.com/xzjch/bianyi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/hook/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0b3ce5ce0ddc23b94f88c3bb22170cc29ffd0741 (origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 0b3ce5ce0ddc23b94f88c3bb22170cc29ffd0741 # timeout=10
+Commit message: "Update pom.xml"
+ > /usr/bin/git rev-list --no-walk 688e20cf6b2c4a177bfc06c628e97d92c147e81d # timeout=10
+[compile-free] $ /bin/bash /tmp/jenkins8520742756500299280.sh
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< cn.sjzc:helloworld >-------------------------
+[INFO] Building helloworld Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ helloworld ---
+[INFO] Deleting /var/lib/jenkins/workspace/compile-free/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.359 s
+[INFO] Finished at: 2020-05-09T13:45:15+08:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< cn.sjzc:helloworld >-------------------------
+[INFO] Building helloworld Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ helloworld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/compile-free/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ helloworld ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/compile-free/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.192 s
+[INFO] Finished at: 2020-05-09T13:45:17+08:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< cn.sjzc:helloworld >-------------------------
+[INFO] Building helloworld Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ helloworld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/compile-free/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ helloworld ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ helloworld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/compile-free/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ helloworld ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/compile-free/target/test-classes
+[INFO] /var/lib/jenkins/workspace/compile-free/src/test/java/cn/itree/helloworld/HelloWorldTest.java: /var/lib/jenkins/workspace/compile-free/src/test/java/cn/itree/helloworld/HelloWorldTest.java uses or overrides a deprecated API.
+[INFO] /var/lib/jenkins/workspace/compile-free/src/test/java/cn/itree/helloworld/HelloWorldTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.409 s
+[INFO] Finished at: 2020-05-09T13:45:20+08:00
+[INFO] ------------------------------------------------------------------------
+===== Add file to local git repo ===== 
+2020.02.24-11.html
+* (detached from 0b3ce5c)
+----------pull-----------
+From https://github.com/xzjch/try3
+ * [new branch]      master     -> master
+Merge made by the 'recursive' strategy.
+ .gitignore                                         |   3 +
+ 1.txt                                              |   1 +
+ reports/Compile/gengmingze/.gitkeep                |   0
+ reports/Compile/gengmingze/compile-1.log           | Bin 0 -> 15761 bytes
+ reports/Compile/gengmingze/compile-3.log           | Bin 0 -> 15716 bytes
+ reports/Compile/gengmingze/compile-4.log           | Bin 0 -> 13691 bytes
+ reports/Compile/gengmingze/compile-5.log           | Bin 0 -> 13827 bytes
+ reports/Compile/gengmingze/compile-6.log           | Bin 0 -> 15852 bytes
+ reports/Compile/gengmingze/gengmingze-push-12.log  | Bin 0 -> 15024 bytes
+ reports/Compile/gengmingze/gengmingze-push-14.log  | Bin 0 -> 15817 bytes
+ reports/Compile/gengmingze/gengmingze-push-15.log  | Bin 0 -> 15836 bytes
+ reports/Compile/gengmingze/gengmingze-push-16.log  | Bin 0 -> 15988 bytes
+ reports/Compile/gengmingze/gengmingze-push-17.log  | Bin 0 -> 16136 bytes
+ reports/Compile/gengmingze/gengmingze-push-19.log  | 223 +++++++++++++++++++++
+ reports/Compile/gengmingze/gengmingze-push-20.log  | Bin 0 -> 16435 bytes
+ reports/Compile/gengmingze/gengmingze-push-21.log  | Bin 0 -> 16599 bytes
+ reports/Compile/gengmingze/gengmingze-push-23.log  | Bin 0 -> 16725 bytes
+ reports/Compile/gengmingze/gengmingze-push-24.log  | Bin 0 -> 16889 bytes
+ reports/Compile/gengmingze/gengmingze-push-3.log   | Bin 0 -> 14952 bytes
+ reports/Compile/gengmingze/xuzijing-push4-1.log    | Bin 0 -> 15509 bytes
+ reports/Compile/gengmingze/xuzijing-push4-2.log    | Bin 0 -> 15471 bytes
+ reports/Compile/gengmingze/xuzijing-push4-3.log    | Bin 0 -> 16069 bytes
+ reports/Compile/liutianqi/.gitkeep                 |   0
+ reports/Compile/luzhanxing/.gitkeep                |   0
+ reports/Compile/songjingyi/.gitkeep                |   0
+ reports/Compile/sunxuewen/.gitkeep                 |   0
+ reports/Compile/weiwenqing/.gitkeep                |   0
+ reports/Compile/xingjiaojiao/.gitkeep              |   0
+ reports/Compile/xuzijing/.gitkeep                  |   0
+ reports/Compile/yangjingzheng/.gitkeep             |   0
+ reports/Deploy/.gitkeep                            |   0
+ reports/Sonar/gengmingze/.gitkeep                  |   0
+ reports/Sonar/liutianqi/.gitkeep                   |   0
+ reports/Sonar/luzhanxing/.gitkeep                  |   0
+ reports/Sonar/songjingyi/.gitkeep                  |   0
+ reports/Sonar/sunxuewen/.gitkeep                   |   0
+ reports/Sonar/weiwenqing/.gitkeep                  |   0
+ reports/Sonar/xingjiaojiao/.gitkeep                |   0
+ reports/Sonar/xuzijing/.gitkeep                    |   0
+ reports/Sonar/xuzijing/sonar-19.txt                |   1 +
+ reports/Sonar/xuzijing/sonar-6.txt                 |   1 +
+ reports/Sonar/xuzijing/sonar-7.txt                 |   1 +
+ reports/Sonar/xuzijing/sonar-8.txt                 |   1 +
+ reports/Sonar/xuzijing/sonar-cov-1.txt             |   1 +
+ reports/Sonar/xuzijing/sonar-cov-10.txt            |   1 +
+ reports/Sonar/xuzijing/sonar-cov-13.txt            |   1 +
+ reports/Sonar/xuzijing/sonar-cov-14.txt            |   1 +
+ reports/Sonar/xuzijing/sonar-cov-2.txt             |   1 +
+ reports/Sonar/xuzijing/sonar-cov-3.txt             |   1 +
+ reports/Sonar/xuzijing/sonar-cov-4.txt             |   1 +
+ reports/Sonar/xuzijing/sonar-cov-5.txt             |   1 +
+ reports/Sonar/xuzijing/sonar-cov-6.txt             |   1 +
+ reports/Sonar/xuzijing/sonar-cov-7.txt             |   1 +
+ reports/Sonar/xuzijing/sonar-cov-8.txt             |   1 +
+ reports/Sonar/xuzijing/sonar-cov-9.txt             |   1 +
+ reports/Sonar/xuzijing/xuzijing-issues-78.txt      |   1 +
+ reports/Sonar/xuzijing/xuzijing-issues-79.txt      |   1 +
+ reports/Sonar/xuzijing/xuzijing-issues-80.txt      |   1 +
+ reports/Sonar/yangjingzheng/.gitkeep               |   0
+ reports/TestReports/TestReports-AT/.gitkeep        |   0
+ .../TestReports/TestReports-IT/gengmingze/.gitkeep |   0
+ .../TestReports/TestReports-IT/liutianqi/.gitkeep  |   0
+ .../TestReports/TestReports-IT/luzhanxing/.gitkeep |   0
+ .../TestReports/TestReports-IT/songjingyi/.gitkeep |   0
+ .../TestReports/TestReports-IT/sunxuewen/.gitkeep  |   0
+ .../TestReports/TestReports-IT/weiwenqing/.gitkeep |   0
+ .../TestReports-IT/xingjiaojiao/.gitkeep           |   0
+ .../TestReports/TestReports-IT/xuzijing/.gitkeep   |   0
+ .../TestReports-IT/yangjingzheng/.gitkeep          |   0
+ .../TestReports/TestReports-UT/gengmingze/.gitkeep |   0
+ .../TestReports-UT/gengmingze/2020.02.24-11.html   |   1 +
+ .../TestReports-UT/gengmingze/2020.02.25-01.html   |   1 +
+ .../TestReports/TestReports-UT/liutianqi/.gitkeep  |   0
+ .../TestReports/TestReports-UT/luzhanxing/.gitkeep |   0
+ .../TestReports/TestReports-UT/songjingyi/.gitkeep |   0
+ .../TestReports/TestReports-UT/sunxuewen/.gitkeep  |   0
+ .../TestReports/TestReports-UT/weiwenqing/.gitkeep |   0
+ .../TestReports-UT/xingjiaojiao/.gitkeep           |   0
+ .../TestReports/TestReports-UT/xuzijing/.gitkeep   |   0
+ .../TestReports-UT/yangjingzheng/.gitkeep          |   0
+ 80 files changed, 248 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 1.txt
+ create mode 100644 reports/Compile/gengmingze/.gitkeep
+ create mode 100644 reports/Compile/gengmingze/compile-1.log
+ create mode 100644 reports/Compile/gengmingze/compile-3.log
+ create mode 100644 reports/Compile/gengmingze/compile-4.log
+ create mode 100644 reports/Compile/gengmingze/compile-5.log
+ create mode 100644 reports/Compile/gengmingze/compile-6.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-12.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-14.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-15.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-16.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-17.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-19.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-20.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-21.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-23.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-24.log
+ create mode 100644 reports/Compile/gengmingze/gengmingze-push-3.log
+ create mode 100644 reports/Compile/gengmingze/xuzijing-push4-1.log
+ create mode 100644 reports/Compile/gengmingze/xuzijing-push4-2.log
+ create mode 100644 reports/Compile/gengmingze/xuzijing-push4-3.log
+ create mode 100644 reports/Compile/liutianqi/.gitkeep
+ create mode 100644 reports/Compile/luzhanxing/.gitkeep
+ create mode 100644 reports/Compile/songjingyi/.gitkeep
+ create mode 100644 reports/Compile/sunxuewen/.gitkeep
+ create mode 100644 reports/Compile/weiwenqing/.gitkeep
+ create mode 100644 reports/Compile/xingjiaojiao/.gitkeep
+ create mode 100644 reports/Compile/xuzijing/.gitkeep
+ create mode 100644 reports/Compile/yangjingzheng/.gitkeep
+ create mode 100644 reports/Deploy/.gitkeep
+ create mode 100644 reports/Sonar/gengmingze/.gitkeep
+ create mode 100644 reports/Sonar/liutianqi/.gitkeep
+ create mode 100644 reports/Sonar/luzhanxing/.gitkeep
+ create mode 100644 reports/Sonar/songjingyi/.gitkeep
+ create mode 100644 reports/Sonar/sunxuewen/.gitkeep
+ create mode 100644 reports/Sonar/weiwenqing/.gitkeep
+ create mode 100644 reports/Sonar/xingjiaojiao/.gitkeep
+ create mode 100644 reports/Sonar/xuzijing/.gitkeep
+ create mode 100644 reports/Sonar/xuzijing/sonar-19.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-6.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-7.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-8.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-1.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-10.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-13.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-14.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-2.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-3.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-4.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-5.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-6.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-7.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-8.txt
+ create mode 100644 reports/Sonar/xuzijing/sonar-cov-9.txt
+ create mode 100644 reports/Sonar/xuzijing/xuzijing-issues-78.txt
+ create mode 100644 reports/Sonar/xuzijing/xuzijing-issues-79.txt
+ create mode 100644 reports/Sonar/xuzijing/xuzijing-issues-80.txt
+ create mode 100644 reports/Sonar/yangjingzheng/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-AT/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/gengmingze/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/liutianqi/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/luzhanxing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/songjingyi/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/sunxuewen/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/weiwenqing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/xingjiaojiao/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/xuzijing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-IT/yangjingzheng/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/gengmingze/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/gengmingze/2020.02.24-11.html
+ create mode 100644 reports/TestReports/TestReports-UT/gengmingze/2020.02.25-01.html
+ create mode 100644 reports/TestReports/TestReports-UT/liutianqi/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/luzhanxing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/songjingyi/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/sunxuewen/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/weiwenqing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/xingjiaojiao/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/xuzijing/.gitkeep
+ create mode 100644 reports/TestReports/TestReports-UT/yangjingzheng/.gitkeep
+----------cp-----------
+Saved working directory and index state WIP on (no branch): 80feb3c Merge branch 'master' of https://github.com/xzjch/try3 into HEAD
+HEAD is now at 80feb3c Merge branch 'master' of https://github.com/xzjch/try3 into HEAD
